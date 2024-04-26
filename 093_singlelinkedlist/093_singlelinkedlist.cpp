@@ -83,3 +83,11 @@ bool deleteNode(int nim) {
 	if (serachNode(nim, previous, current) == false)
 		return true;
 }
+
+bool listEmpty() {
+	if (START == NULL)
+		return true;
+	else
+		return false;
+
+}
