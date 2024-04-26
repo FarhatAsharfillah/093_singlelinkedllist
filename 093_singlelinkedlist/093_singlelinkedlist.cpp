@@ -160,7 +160,7 @@ int main() {
 					system("cls");
 					break;
 				}
-			}
+
 			int nim;
 			cout << "Masukkan NIM: ";
 			cin >> nim;
@@ -189,4 +189,4 @@ int main() {
 		{
 			cout << "Terjadi Kesalahan" << endl;
 		}
-}
+} while (pilihan != 5);
